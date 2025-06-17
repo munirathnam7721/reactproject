@@ -32,7 +32,7 @@ export default function Bestsales() {
        className="add-btn"
          onClick={() => {
          dispatch(addtoCart({ ...item, quantity: 1 }));
-          toast.success("Your cart is added successfully");
+          toast.success("Your Product is Added to Cart successfully ");
            }}> <FaPlus /></button>
              
             </div>

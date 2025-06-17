@@ -10,6 +10,7 @@ import { removeFromCart, increaseQty, decreaseQty } from "../Redux/ProductSlice"
 export default function CartPage() {
   const items = useSelector((state) => state.cartItems.cart)
   const dispatch = useDispatch()
+  
 
   const totalPrice = items.reduce((acc, item) => acc + item.price * item.quantity, 0)
 

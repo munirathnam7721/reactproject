@@ -29,7 +29,7 @@ export default function NewArrivals() {
             <br />
             <div className="arrival-bottom">
               <span>${item.price}</span>
-              <button className="add-btn" onClick={()=>{dispatch(addtoCart({ ...item, quantity: 1 }));toast.success("Your cart is added successfully")}} ><FaPlus /></button>
+              <button className="add-btn" onClick={()=>{dispatch(addtoCart({ ...item, quantity: 1 }));toast.success("Your Product is Added to Cart successfully")}} ><FaPlus /></button>
             </div>
           </div>
         ))}

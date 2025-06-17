@@ -31,7 +31,7 @@ export default function Bigdiscount() {
             <br />
             <div className="price-add">
               <span className="price">${product.price}</span>
-              <button className="add-btn" onClick={()=>{dispatch(addtoCart({...product, quantity: 1 }));toast.success("Your cart is added successfully")}} ><FaPlus /></button>
+              <button className="add-btn" onClick={()=>{dispatch(addtoCart({...product, quantity: 1 }));toast.success("Your Product is Added to Cart successfully")}} ><FaPlus /></button>
             </div>
           </div>
         ))}
