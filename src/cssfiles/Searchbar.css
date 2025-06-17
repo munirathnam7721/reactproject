@@ -1,0 +1,52 @@
+/* Container layout */
+.Searchbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 50px 150px;
+  flex-wrap: wrap;
+}
+.dropbtn {
+    padding: 10px 16px;
+    background:  #002147;
+    color:white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 230px;
+}
+.Searchbar-search {
+  position: relative;
+}
+.Searchbar-search input {
+  padding: 10px 15px;
+  padding-right: 35px;
+  border: none;
+  border-radius: 30px;
+  background-color: #f1f1f1;
+  width: 600px;
+  font-size: 20px;
+  outline: none;
+}
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 20px;
+}
+.searchicon-shoppage{
+    color: black;
+}
+.dropbtn option {
+    margin-top: 10px;
+  background-color: #0755ae;
+  color: black;
+  font-size: 18px;
+  color: white;
+  padding:  0 15px;
+}

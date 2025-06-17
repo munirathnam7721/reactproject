@@ -1,0 +1,97 @@
+.Bannertitle h1{
+    text-align: center;
+    font-size:45px ;
+    color: white;
+}
+.Bannertitle {
+  background-image: url("../Images/table.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  background-color: rgba(22, 21, 21, 0.5); 
+  background-blend-mode: darken;
+ }
+ .productcategory-price{
+    font-weight: bolder;
+
+ }
+ .Banner-info {
+  display: flex;
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  align-items: flex-start;
+  gap: 200px;
+  padding: 80px 150px;
+  flex-wrap: wrap;
+  background-color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-image img {
+  width: 500px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.productname {
+  max-width: 500px;
+}
+
+.productname h2 {
+  font-size:35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.productname{
+  margin-top: -40px !important;
+}
+
+.Product-rating {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.product-priceandcategory {
+  display: flex;
+gap: 40px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+.productname p {
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+input[type='number'] {
+  width: 60px;
+  padding: 6px 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.productdetailsbutton{
+    background-color: rgb(2, 2, 116) !important;
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}

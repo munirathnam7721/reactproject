@@ -1,0 +1,63 @@
+.togglesection-buttons {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.main-togglesection{
+    padding: 80px 120px;
+}
+
+.toggle-descbutton,
+.toggle-reviewsbtn {
+  border: none;
+  background: none;
+  font-weight: normal;
+  color: gray;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+.toggle-reviewsbtn:hover{
+    color: black;
+    font-weight: bold;
+}
+.toggle-descbutton:hover{
+        color: black;
+    font-weight: bold;
+
+}
+.active-btn {
+  font-weight: bold;
+  color: black;
+}
+.toggle-description {
+  font-size: 20px;
+  color: #222;
+  font-weight: 200;
+  line-height: 1.6;
+}
+
+/* Review section */
+.reviews {
+  display: flex;
+  flex-direction: column;
+  margin-top: -20px;
+}
+.toggle-rating {
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -25px;
+}
+
+.toggle-review {
+  font-size: 20px;
+  color: #333;
+  margin-top: -20px;
+}
+.personname{
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,103 @@
+.discount-section {
+  background-color: #f6f8fc;
+  padding: 40px 50px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.discount-grid {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 50px;
+  padding: 20px;
+
+}
+
+.discount-card {
+  position: relative;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.discount-card:hover {
+  transform: translateY(-5px);
+}
+
+.discount-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #003366;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.Discout-productdetails {
+  text-align: left;
+  margin-bottom: 5px;
+  /* padding-left: 2px; */
+}
+.Discout-productdetails h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.discount-image {
+  width: 300px;
+  height: 280px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.stars {
+  color: #f5a623;
+  margin-bottom: 10px;
+}
+
+.price-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: bold;
+  color: #222;
+}
+
+.add-btn {
+  background-color: #f2f4f7;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-btn:hover {
+  background-color: #e0e3e7;
+}

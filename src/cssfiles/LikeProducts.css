@@ -1,0 +1,81 @@
+.LikedProducts-section {
+  background-color:#f6f8fc;
+  padding: 40px 50px;
+}
+.LikedProducts-title {
+ /* text-align: center; */
+  margin-left: 80px;
+  font-size: 42px;
+ 
+  margin-bottom: 40px;
+}
+.LikedProducts-card {
+  position: relative;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),   /* soft bottom shadow */
+    0 8px 20px rgba(0, 0, 0, 0.15); /* deeper shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.LikedProducts-card:hover {
+  transform: translateY(-5px);
+    box-shadow:
+    0 6px 10px rgba(0, 0, 0, 0.15),
+    0 12px 24px rgba(0, 0, 0, 0.2);  /* more intense on hover */
+
+}
+img.LikedProducts-image
+ {
+  width: 300px;
+  height: 280px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.LikedProducts-details{
+  text-align: left;
+  margin-bottom: 5px;
+}
+.LikedProducts-details h2 {
+   font-size: 25px;
+    font-weight: bold;
+}
+.LikedProducts-bottom {
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.LikedProducts-bottom span {
+   font-size: 25px !important;
+  font-weight: bold;
+  color: #222;
+}
+.LikedProducts-bottom button {
+   background-color: #f2f4f7;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LikedProducts-bottom button:hover {
+  background-color: #aba7a7;
+}
+.LikedProducts-card span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+.LikedProducts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 50px;
+  padding: 20px;
+}

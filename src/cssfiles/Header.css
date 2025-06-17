@@ -1,0 +1,74 @@
+/* Main container */
+.Nav-Container {
+  position: fixed;         
+  top: 0;                 
+  left: 0;
+  right: 0;
+  z-index: 1000;           
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: white;
+  box-shadow: 0 3px 12px rgb(71, 70, 70);
+  width: 90%;             
+}
+
+/* Logo section */
+.Nav-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Nav-icon h1 {
+  font-size: 30px;
+  color: black;
+  margin: 0;
+}
+.Nav-icon button {
+  background: none;
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+/* Button and icons section */
+.Nav-button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+/* Navigation buttons */
+.Nav-button button {
+  background: none;
+  border: none;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* Profile icon */
+.Nav-button button svg {
+  font-size: 25px;
+}
+/* Cart icon with count */
+.Carticon {
+  position: relative;
+}
+.Carticon button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+.Carticon span {
+  position: absolute;
+  top: -13px;
+  right: -2px;
+  background-color: #0a58ca;
+  color: white;
+  font-size: 13px;
+  padding: 3px 7px;
+  border-radius: 50%;
+  font-weight: bold;
+}

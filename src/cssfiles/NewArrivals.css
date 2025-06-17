@@ -1,0 +1,75 @@
+/* Container Section */
+.new-arrivals-section {
+  background-color:white;
+  padding: 40px 100px;
+}
+.new-arrivals-title {
+ text-align: center;
+  font-size: 52px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+ 
+.arrival-card {
+  position: relative;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 15px 29px 15px rgba(33, 4, 4, 0.05);
+  transition: transform 0.2s ease;
+}
+.arrival-card:hover {
+  transform: translateY(-5px);
+}
+.arrival-image {
+  width: 300px;
+  height: 280px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.arrival-details{
+  text-align: left;
+  margin-bottom: 5px;
+}
+.arrival-details h2 {
+   font-size: 25px;
+    font-weight: bold;
+}
+.arrival-bottom {
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrival-bottom span {
+   font-size: 25px !important;
+  font-weight: bold;
+  color: #222;
+}
+.arrival-bottom button {
+   background-color: #f2f4f7;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrival-bottom button:hover {
+  background-color: #aba7a7;
+}
+.arrival-card span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+.new-arrivals-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 50px;
+  padding: 20px;
+}

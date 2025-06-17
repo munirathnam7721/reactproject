@@ -1,0 +1,128 @@
+.cart-page {
+  width: 100%;
+  /* min-height: 100vh; */
+  background-color: #f7fafd;
+  padding:  20px;
+  margin-top: 80px;
+  box-sizing: border-box;
+}
+
+.cart-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 60px;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.cart-items {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cart-item-box {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  gap: 50px;
+  width: 800px;
+}
+
+.product-img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.item-details {
+  flex: 1;
+}
+.item-details h3{
+  font-size: 25px;
+}
+.item-details h4{
+  font-size: 20px;
+}
+
+.qty-controls {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+}
+
+.qty-controls button {
+  background-color: #f1f7fd;
+  border: none;
+  margin-top: 90px;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  margin-top: 75px;
+ 
+  right: 10px;
+  cursor: pointer;
+}
+
+
+.cart-summary {
+  flex: 1;
+  background-color: white;
+  padding: 40px 20px;
+  height: fit-content;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  width: 240px;
+}
+
+
+.cart-summary h2 {
+  color: #003366;
+  font-size: 30px;
+}
+.cart-summary p{
+  font-size: 20px;
+  font-weight: bold;
+color: gray;
+}
+.cart-summary h3{
+  font-size: 25px;
+}
+.continueshopping{
+  font-size: 25px;
+  font-weight: bold;
+  background-color: antiquewhite;
+  padding: 15px ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.empty-cart-message {
+  /* height: 8; */
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  font-size: 35px;
+  color: #444;
+}
+.empty-cart-message h2{
+color:blue;
+}
