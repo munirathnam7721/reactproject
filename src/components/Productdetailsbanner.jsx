@@ -27,7 +27,7 @@ export default function Productdetailsbanner() {
       quantity: parseInt(quantity) || 1, 
     };
     dispatch(addtoCart(productWithQty));
-    toast.success(Added ${quantity} item(s) to cart);
+    toast.success(`Added ${quantity} item(s) to cart`);
   }
 
     return (
